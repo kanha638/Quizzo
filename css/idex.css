@@ -1,0 +1,35 @@
+body {
+    background-color: darkslategrey;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 0px;
+}
+
+.firstpage {
+    background-color: rgb(216, 208, 208);
+    text-align: center;
+    border-radius: 25px;
+    align-content: center;
+    margin: 200px;
+    color: brown;
+}
+
+button {
+    font-size: medium;
+    padding: 10px;
+    background-color: blue;
+    color: black;
+    border-radius: 5px;
+    margin-top: 20px;
+    border: black;
+    border-width: 6px;
+    box-shadow: black;
+}
+
+button:hover {
+    background-color: brown;
+}
+
+.form {
+    padding: 100px;
+}
