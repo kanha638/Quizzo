@@ -1,5 +1,5 @@
 body {
-    background-color: darkslategrey;
+    background-color: rgb(79, 63, 47);
     background-size: cover;
     background-repeat: no-repeat;
     padding: 0px;
@@ -23,7 +23,7 @@ button {
     margin-top: 20px;
     border: black;
     border-width: 6px;
-    box-shadow: black;
+    box-shadow: rgb(223, 213, 213);
 }
 
 button:hover {
