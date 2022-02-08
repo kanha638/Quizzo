@@ -1,8 +1,19 @@
+*{
+    margin:0;
+    padding 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight:400;
+}
+
 body {
+    width:100vw;
+    min-height:100vh;
     background-color: rgb(79, 63, 47);
-    background-size: cover;
     background-repeat: no-repeat;
-    padding: 0px;
+    padding:auto;
+    display:grid;
+    place-items:center;
 }
 
 .firstpage {
@@ -10,8 +21,9 @@ body {
     text-align: center;
     border-radius: 25px;
     align-content: center;
-    margin: 200px;
+    margin: 0;
     color: brown;
+    box-shadow: 0 1rem 1rem -0.7rem rgb(0,0,0,0.4);
 }
 
 button {
@@ -20,10 +32,10 @@ button {
     background-color: blue;
     color: black;
     border-radius: 5px;
-    margin-top: 20px;
-    border: black;
+    margin-top: 4rem;
+    border: none;
     border-width: 6px;
-    box-shadow: rgb(223, 213, 213);
+    box-shadow: 0 1rem 1rem -0.7rem rgb(0,0,0,0.4);
 }
 
 button:hover {
@@ -31,5 +43,5 @@ button:hover {
 }
 
 .form {
-    padding: 100px;
+    padding: 15rem;
 }
